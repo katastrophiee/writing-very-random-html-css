@@ -1,0 +1,57 @@
+
+/* class selector */
+.heading{
+    color: rgb(62, 89, 112);
+     display: inline; /* only takes up the space needed to be rendered in the browser */
+     display: inline-block; /* the same but nicer idfk */
+}
+
+/* element selectors */
+body{
+    background-color: azure;
+}
+main{
+    background-color: blue;
+    width: 50%;
+}
+h1{
+    color: rgb(206, 159, 200);
+    background-color: pink;
+}
+div{
+    background-color: rgb(217, 238, 238);
+    color: lightcoral;
+    width: 50%;
+    /* color: #fff; */
+}
+
+img 
+{
+    border: solid 3px #39f;
+}
+
+/* select by class and element, affects both*/
+.tutorial, h1
+{
+    border: solid 1px red;
+}
+
+/* selects by id */
+#tutorial1{
+    background-color: #454545;
+}
+
+/* selects the children elements of paragraphs that are within the tutorial class */
+.tutorial > p {
+    font-size: large;
+}
+
+h1, h2 
+{
+    color: #34f;
+}
+
+table, tr, td{
+    border: solid 1px black;
+    padding: 3%;
+}
