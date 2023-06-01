@@ -2,8 +2,8 @@
 /* class selector */
 .heading{
     color: rgb(62, 89, 112);
-     display: inline; /* only takes up the space needed to be rendered in the browser */
-     display: inline-block; /* the same but nicer idfk */
+    display: inline; /* only takes up the space needed to be rendered in the browser */
+    display: inline-block; /* the same but nicer idfk */
 }
 
 /* element selectors */
@@ -18,12 +18,13 @@ h1{
     color: rgb(206, 159, 200);
     background-color: pink;
 }
-div{
+
+/* div{
     background-color: rgb(217, 238, 238);
     color: lightcoral;
     width: 50%;
-    /* color: #fff; */
-}
+    color: #fff; 
+} */
 
 img 
 {
@@ -54,4 +55,18 @@ h1, h2
 table, tr, td{
     border: solid 1px black;
     padding: 3%;
+}
+
+#lol{
+    border: black;
+}
+
+.button{
+    padding: 10px;
+    background-color: #eee;
+    width: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: black;
 }
